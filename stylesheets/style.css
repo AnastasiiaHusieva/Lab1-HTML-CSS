@@ -1,0 +1,30 @@
+.search-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    background-color: white; /* Background color */
+    border-radius: 25px; /* Rounded corners */
+    overflow: hidden; /* Ensures no overflowing corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.search-input {
+    border: none; /* Removes default border */
+    padding: 10px; /* Internal padding */
+    flex: 1; /* Makes each input take equal space */
+    outline: none; /* Removes outline on focus */
+}
+
+.divider {
+    width: 1px; /* Divider thickness */
+    background-color: lightgray; /* Divider color */
+    height: 40px; /* Height of the divider */
+}
+
+.search-button {
+    background-color: #FF5A5F; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Internal padding */
+    cursor: pointer; /* Pointer on hover */
+    border-radius: 25px; /* Rounded corners on button */
+}
